@@ -14,8 +14,8 @@ from telebot import util
 should_skip = 'TOKEN' and 'CHAT_ID' not in os.environ
 
 if not should_skip:
-    TOKEN = os.environ['TOKEN']
-    CHAT_ID = os.environ['CHAT_ID']
+    TOKEN = os.environ['276066282:AAGI-YFv6EQVqtckiSCXVMQJn2AHDJRbtjY']
+    CHAT_ID = os.environ['Serpro-bot']
     GROUP_ID = os.environ['GROUP_ID']
 
 
